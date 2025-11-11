@@ -2,7 +2,7 @@
 
 An interactive **Streamlit** web app (pure Python) that parses an **SRS PDF**, builds a **requirement traceability graph**, and compares **A\*** with **BFS** for finding the optimal requirement path.
 
-<img src="sandbox:/mnt/data/Screenshot 2025-11-11 024037.png" alt="App screenshot" width="800"/>
+<img src="app.png" alt="App screenshot" width="800"/>
 
 ## ✨ What it does
 - **Extracts requirements** from an SRS PDF (ID → text, section).
@@ -60,8 +60,8 @@ With start=`REQ-006`, goal=`REQ-029` the demo shows:
 - **A\*** is ~**90% faster** than BFS in node expansions.
 
 ## 🖼 Screenshots
-<img src="sandbox:/mnt/data/Screenshot 2025-11-11 023956.png" alt="Header and extraction" width="800"/>
-<img src="sandbox:/mnt/data/Screenshot 2025-11-11 024102.png" alt="Network graph" width="600"/>
+<img src="extraction.png" alt="Header and extraction" width="800"/>
+<img src="graph.png" alt="Network graph" width="600"/>
 
 ## 📜 Requirements
 See `requirements.txt` in this repo. Minimal list:
